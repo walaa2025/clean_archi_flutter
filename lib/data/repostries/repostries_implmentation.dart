@@ -2,6 +2,8 @@ import 'package:clean_archi_flutter/domain/entities/orgenic.dart';
 import 'package:clean_archi_flutter/domain/repostries/organic_repo.dart';
 import'package:http/http.dart' as http;
 class OrganicRepostrImpl extends OrgenicRepostries {
+  http.Client client;
+  OrganicRepostrImpl({required this.client});
   @override
   Future<void> createOrganic(Orgenic organic) {
     // TODO: implement createOrganic
@@ -17,6 +19,7 @@ class OrganicRepostrImpl extends OrgenicRepostries {
   @override
   Future<List<Orgenic>> getAllOrganic() {
     // TODO: implement getAllOrganic
+
     throw UnimplementedError();
   }
 
