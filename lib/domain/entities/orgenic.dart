@@ -1,8 +1,8 @@
 class Orgenic {
-  final String title;
-  final String link;
+  final String? title;
+  final String? link;
   final String? data;
-  final String snippts;
+  final String? snippts;
   final int? position;
 
   Orgenic({
