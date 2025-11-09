@@ -5,6 +5,6 @@ class GetOrgenicUsecases {
   final OrgenicRepostries organicRepostriess;
   GetOrgenicUsecases(this.organicRepostriess);
   Future<List<Orgenic>> execute() async {
-    return await organicRepostries.getAllOrganic();
+    return await organicRepostriess.getAllOrganic();
   }
 }
