@@ -9,8 +9,8 @@ import 'presentation/state/organic_provider.dart';
 
 
 void main() {
-  final organicRepository = OrganicRepostrImpl(client: http.Client());
-  final getOrgenicUsecases = GetOrgenicUsecases(organicRepository);
+ final organicRepository = OrganicRepostrImpl(client: http.Client());
+ final getOrgenicUsecases = GetOrgenicUsecases(organicRepository);
 
   runApp(
     MultiProvider(

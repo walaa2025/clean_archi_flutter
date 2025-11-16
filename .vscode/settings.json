@@ -10,5 +10,6 @@
     "editor.tokenColorCustomizations": {
         "comments": "",
         "textMateRules": []
-    }
+    },
+    "cmake.sourceDirectory": "C:/Users/albra/Desktop/Flutter_project/clean_archi_flutter/linux"
 }

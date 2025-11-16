@@ -39,8 +39,8 @@ class OrganicListPage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text("${orgenic.snippts}"),
-                          Text("${orgenic.data.toString()}"),
-                          Text("${orgenic.position.toString()}"),
+                          Text(orgenic.data??''),
+                          Text(orgenic.position.toString()),
                           TextButton(
                             child: Text("${orgenic.link}"),
                             onPressed: () {
@@ -48,7 +48,7 @@ class OrganicListPage extends StatelessWidget {
                               ScaffoldMessenger.of(context).showSnackBar(
                                 SnackBar(
                                   content: Text(
-                                    orgenic.title! + '\n' + orgenic.link!,
+                                    '${orgenic.title!}\n${orgenic.link!}',
                                   ),
                                 ),
                               );

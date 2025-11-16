@@ -1,0 +1,31 @@
+[
+{
+"title": "عنوان مقالة مهمة 1",
+"link": "https://www.google.com/search?q=https://example.com/article1",
+"snippts": "مقتطف قصير يلخص محتوى المقالة الأولى. هذا مفيد لنتائج البحث.",
+"data": "2024-10-27",
+"position": 1
+},
+{
+"title": "كيفية بناء تطبيق Flutter نظيف",
+"link": "https://www.google.com/search?q=https://example.com/clean-archi-flutter",
+"snippts": "دليل شامل لتطبيق مبادئ الهندسة النظيفة (Clean Architecture) في مشاريع Flutter.",
+"data": "2024-10-25",
+"position": 2
+},
+{
+"title": "أخبار تقنية جديدة",
+"link": "https://www.google.com/search?q=https://example.com/tech-news",
+"snippts": "آخر المستجدات والأخبار في عالم التكنولوجيا والبرمجة.",
+"data": "2024-10-28",
+"position": 3
+},
+{
+"title": "إعدادات Firebase الأساسية",
+"link": "https://www.google.com/search?q=https://example.com/firebase-setup",
+"snippts": "خطوات سريعة لتهيئة قاعدة بيانات Firebase لمشروعك.",
+"data": "2024-10-26",
+"position": 4
+}
+
+]
